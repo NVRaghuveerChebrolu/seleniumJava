@@ -6,7 +6,6 @@ public class reverseEachWordInStringwithoutReverseMethod {
 		String []words=str.split("\\s");
 		String ReverseString="";
 		int count =words.length;
-		//System.out.println(count);
 	//	for (int i=count-1 ; i>=0;i--){
 		for (int i=0 ; i<count;i++){
 			String word =words[i];
